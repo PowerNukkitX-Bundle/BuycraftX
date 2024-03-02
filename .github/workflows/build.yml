@@ -24,10 +24,7 @@ jobs:
         with:
           gradle-version: wrapper
           cache-overwrite-existing: true
-          build-scan-publish: true
-          build-scan-terms-of-service-url: "https://gradle.com/terms-of-service"
-          build-scan-terms-of-service-agree: "yes"
-          arguments: gradle -p pnx build
+          arguments: gradle build
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         if: success()
