@@ -1,5 +1,5 @@
 dependencies {
-    api(project(":buycraftx-plugin-shared"))
+    implementation(project(":buycraftx-plugin-shared"))
     compileOnly(libs.com.github.powernukkitx.powernukkitx)
 }
 

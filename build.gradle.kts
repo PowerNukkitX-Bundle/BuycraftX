@@ -58,6 +58,10 @@ subprojects {
         }
     }
 
+    tasks.build {
+        dependsOn("shadowJar")
+    }
+
     dependencies {
         api("org.jetbrains:annotations:16.0.2")
     }
