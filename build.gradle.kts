@@ -5,6 +5,7 @@ plugins {
 }
 
 group = "net.buycraft"
+version = "2.0.0"
 
 repositories {
     mavenCentral()

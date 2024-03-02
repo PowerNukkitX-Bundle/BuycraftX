@@ -5,8 +5,8 @@
  */
 
 dependencies {
-    api(project(":buycraftx-common"))
+    api(project(":common"))
     testImplementation(libs.junit.junit)
 }
 
-description = "buycraftx-plugin-shared"
+description = "shared"

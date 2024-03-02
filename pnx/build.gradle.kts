@@ -1,6 +1,9 @@
 dependencies {
-    implementation(project(":buycraftx-plugin-shared"))
+    implementation(project(":shared"))
     compileOnly(libs.com.github.powernukkitx.powernukkitx)
 }
 
-description = "buycraftx-pnx"
+val version: String by rootProject
+tasks.processResources {
+    expand(mapOf("version" to version))
+}

@@ -1,6 +1,6 @@
 name: BuycraftX
 main: net.buycraft.plugin.nukkit.BuycraftPlugin
-version: "${project.version}"
+version: "${version}"
 author: Buycraft
 api: [ 2.0.0 ]
 commands:

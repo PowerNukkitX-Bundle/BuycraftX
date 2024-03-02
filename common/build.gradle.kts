@@ -11,4 +11,4 @@ dependencies {
     testImplementation(libs.junit.junit)
 }
 
-description = "buycraftx-common"
+description = "common"
