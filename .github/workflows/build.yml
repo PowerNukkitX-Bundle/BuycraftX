@@ -30,4 +30,4 @@ jobs:
         if: success()
         with:
           name: buycraftx-pnx
-          path: pnx/build/pnx-all.jar
+          path: pnx/build/libs/pnx-all.jar
